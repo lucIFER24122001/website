@@ -1,0 +1,155 @@
+body {
+    font-family: 'Lobster', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('g.jpg');
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red;  */
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.left img {
+    width: 130px;
+   
+}
+
+.left span
+{
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.left div {
+    /* line-height: 50px; */
+    font-size:30px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 40px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size:25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color:aquamarine;
+
+}
+
+.btn {
+    font-family: 'Lobster', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    transform: scale(1.3);
+}
+
+.container {
+    right:10px;
+    position: absolute;
+    border: 2px solid white;
+    margin: 100px 80px;
+    padding: 50px;
+    width: 33%;
+    border-radius: 28px;
+    
+}
+
+.form-group input {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid aquamine;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    text-shadow:
+    0 0 5px #fff,
+    /* 0 0 10px #fff, */
+    0 0 20px #fff,
+    /* 0 0 40px #0ff, */
+    0 0 80px #0ff,
+    /* 0 0 90px #0ff, */
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
